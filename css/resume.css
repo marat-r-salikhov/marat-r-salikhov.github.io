@@ -68,7 +68,7 @@ h4 {
 
 /* Links */
 a {
-  color: #0066cc;
+  color: #2563eb;
   text-decoration: none;
 }
 
@@ -87,7 +87,12 @@ a:hover {
 
 .list-inline-item {
   display: inline;
-  margin-right: 20px;
+  margin-right: 4px;
+}
+
+.list-inline-item.separator {
+  margin-right: 4px;
+  color: #ccc;
 }
 
 .list-inline li:not(:last-child):after {
@@ -102,7 +107,7 @@ p {
 }
 
 p b {
-  color: #cc0000;
+  color: #1e40af;
   font-weight: bold;
 }
 
@@ -138,7 +143,7 @@ hr {
 }
 
 .subheading li:hover {
-  border-left-color: #cc0000;
+  border-left-color: #2563eb;
 }
 
 .font-italic {
@@ -197,8 +202,8 @@ hr {
   }
 
   .col-md-1 {
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
 
   .col-md-3 {
@@ -207,12 +212,17 @@ hr {
   }
 
   .col-md-11 {
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    flex: 0 0 80%;
+    max-width: 80%;
   }
 }
 
 @media (min-width: 992px) {
+  .col-lg-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
   .col-lg-3 {
     flex: 0 0 25%;
     max-width: 25%;
@@ -221,6 +231,11 @@ hr {
   .col-lg-5 {
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
+  }
+
+  .col-lg-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
   }
 
   .col-lg-11 {
