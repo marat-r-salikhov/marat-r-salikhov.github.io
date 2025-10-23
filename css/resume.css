@@ -30,7 +30,7 @@ body {
 
 /* Header section */
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h1, h2 {
@@ -79,6 +79,7 @@ a:hover {
 /* Navigation list */
 .list-inline {
   margin-top: 10px;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 1.6;
   list-style: none;
@@ -138,12 +139,13 @@ hr {
   margin-bottom: 18px;
   font-size: 18px;
   line-height: 1.5;
-  padding-left: 12px;
-  border-left: 2px solid #e0e0e0;
+  padding: 8px 12px;
+  border-left: none;
+  transition: background-color 0.2s ease;
 }
 
 .subheading li:hover {
-  border-left-color: #2563eb;
+  background-color: #fffbeb;
 }
 
 .font-italic {
